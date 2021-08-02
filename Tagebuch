@@ -134,7 +134,36 @@ is moderated by at least one and at most two persons, whereby one person can mod
 30.07.21 - Kompetenzcheck Datenbanken,
 1. NF, 2.NF , 3.NF , Kreuztabellen, 9 Coddschen Anforderungen, Datenmodellierung, Entity - Relationship - Modell , Primärschlüssel, Schlüsselattribute.
 
-02.08.21 - Kompetenzcheck JAVA 1 Woche,
+02.08.21 - Kompetenzcheck JAVA 1 Woche
+
+Arrays - anstelle eines einzelnen Wertes können wir mit einem Array eine Folge von Werten eines Datentyps speichern. 
+
+- eine folge von Zahlen, 
+- eine folge von Namen, 
+- eine folge von Datumswerten, 
+
+Reihenfolge ist dabei irrelevant! 
+
+Sammlung von Werten eines Datentyps
+fixe Größe, die bei Erstellung angeben werden soll
+Null-basierter Zugriff
+Reihenfolge relevant
+initialisiert mit Default-Wert des Datentyps
+
+Mehrdimensionale Arrays 
+
+Ein Array kann eine Liste von Werten eines beliebigen Datentyps speichern. 
+Dabei ist auch ein Array ein Datentyp. 
+
+Das heißt man kann problemlos ein Array von Arrays erstellen! 
+
+
+
+
+
+
+
+
 
 
 
