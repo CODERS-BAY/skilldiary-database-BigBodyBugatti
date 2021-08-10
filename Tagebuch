@@ -163,6 +163,47 @@ Folien - Arrays , Mehrdimensionale Arrays
 
 Übung --> Bingo Card Generator, Insertion Sort, Bubble Sort
 
+04.08.21 
+
+05.08.21
+
+06.08.21
+
+
+
+
+
+09.08.21
+
+SQL 1 - structured query language 
+
+Data Definition Language  (DDL)dient zur Implementierung des relationalen Modells  in einer Datenbank. Definition von Tabellen, deren Attribute, Typen und Wertebereiche
+
+
+Date Manipulation Language (DML)
+dient zur Manipulation von Daten:
+Abfrage, Ändern, Einfügen, Löschen.
+
+SELECT - auswählen
+UPDATE - aktualisieren
+INSERT - einfügen
+DELETE - löschen
+
+
+Data Control Language (DCL)regelt den Zugriff und die Berechtigungen insbesondere in Mehrbenutzersystemen.
+
+GRANT  - Berechtigungsvergabe
+REVOKE - Berechtigungsentzug
+COMMIT - fixieren von Veränderungen
+ROLLBACK - Zurücksetzen
+LOCK   - sperren 
+
+
+
+
+
+
+
 
 
 
