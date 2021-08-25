@@ -232,6 +232,61 @@ select first_name || ' ' || last_name as Name,
     (select department_name from departments where employees.department_id = department_id (+)) as Department
 from employees;    
 
+20.08.21
+
+Kompetenzcheck 2 SQL 
+
+--Joins 1
+
+--The management would like a list of the different salaries per job. The output should 
+--contain the job_id as well as the sum of the salaries per job_id. In addition, the output 
+--should be sorted in descending order according to the sum of the salaries.
+select sum(salary),jobs.job_id
+from employees,jobs
+where employees.job_id (+) = jobs.job_id
+group by jobs.job_id
+order by sum(salary) desc;
+
+select jobs.job_id,sum(salary)
+from employees
+    join jobs on employees.job_id (+) = jobs.job_id
+group by jobs.job_id
+order by sum(salary) desc;
+
+
+Subselect
+
+
+select department_name,
+(select street_address from locations where location_id = departments.location_id) as Street,
+(select postal_code from locations where location_id = departments.location_id) as Postal_Code,
+(select city from locations where location_id = departments.location_id) as City,
+(select state_province from locations where location_id = departments.location_id) as State
+from departments;
+
+Transaktionen Folie 
+
+
+
+
+23 & 24.08 --> Krank 
+
+25.08
+
+SQL Exercise 10 
+
+--the player with the number 95 gets the address of the player with the number 6
+update players 
+set(street,houseno,postcode,town)=(
+    select street,houseno,postcode,town
+    from players
+    where playerno = 6)
+where playerno = 95;  
+
+Modelliere eine Sup
+
+
+
 
 
 
